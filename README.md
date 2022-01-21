@@ -11,3 +11,5 @@ Instructions
 7. If the user clicks and holds for more than 250 ms before releasing the mouse, display "You're holding the button down", even before the mouse is released.
 
 You _can_ solve this without using a Promise. However, the task is to create a promise which will be resolved if the user releases the button quickly and rejected if the user holds the button down for more than 250 ms.
+
+[Try the Demo](https://dciforks.github.io/ClickAndHold/)
